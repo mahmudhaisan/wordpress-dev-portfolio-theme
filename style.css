@@ -1,0 +1,33 @@
+/*
+Theme Name: Wp Dev Portfolio
+Theme URI: https://github.com/mahmudhaisan
+Author: Mahmud Haisan
+Author URI: https://github.com/mahmudhaisan
+Description: Wordpress Developer Portfolio theme
+Requires at least: 6.0
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: wpdp-theme
+*/
+
+img {
+    max-width: 100%;
+}
+
+
+/* Menu Fix */
+
+.main-menu {
+    justify-content: flex-end;
+}
+
+.card-body p {
+    color: #fff;
+}
+
+.wp-block-page-list,
+.wp-block-categories {
+    padding: 0;
+    list-style: none;
+}
